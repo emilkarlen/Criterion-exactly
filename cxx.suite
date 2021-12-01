@@ -1,0 +1,4 @@
+[suites]
+
+asserts/cxx.suite
+crashes/cxx.suite

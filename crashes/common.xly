@@ -1,0 +1,5 @@
+[setup]
+
+including ../common.xly
+
+def text-transformer replace_version = replace -at line-num == 1 ' v.*' ' VERSION'
