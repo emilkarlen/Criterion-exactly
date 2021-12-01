@@ -65,6 +65,13 @@ Executing a case via its case file ``NAME.case``::
 
   > exactly NAME.case
 
+Executing the *action to check* of a test case file ``NAME.case``::
+
+  > exactly --act NAME.case
+
+This will ignore assertions and output exit-code, stdout and stderr
+of the program run in ``[act]``.
+
 
 Evaluation
 ===============================================================================
@@ -85,6 +92,10 @@ Pros
   - stderr
 - Ability to run each test case independently
 - Execpted output text can be put in sepate file.
+- Resue of resources
+  - common output in external files
+  - replacement of name-of-sourc-file etc
+- No dependency on a shell
 
 
 Cons
