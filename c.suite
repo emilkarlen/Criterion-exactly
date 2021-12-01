@@ -7,3 +7,5 @@ exit/c.suite
 fail-fast/c.suite
 help/c.suite
 json/c.suite
+log/c.suite
+parametrized/c.suite

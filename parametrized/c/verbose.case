@@ -1,0 +1,11 @@
+[act]
+
+@[samples_dir]@/parameterized.c.bin --verbose
+
+[assert]
+
+stdout is-empty
+
+stderr
+  -transformed-by replace_version
+  equals -contents-of expected/verbose.txt

@@ -1,0 +1,9 @@
+[act]
+
+@[samples_dir]@/log.cc.bin
+
+[assert]
+
+stderr
+  -transformed-by replace_version
+  equals -contents-of expected/severity.txt
