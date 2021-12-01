@@ -86,28 +86,36 @@ Only tested on Linux (Debian).
 Pros
 -------------------------------------------------------------------------------
 
-- More detailed tests, and test of more props
+- More detailed tests, and test of more props:
   - exit code
   - stdout
   - stderr
-- Ability to run each test case independently
+- Ability to run each test case independently.
 - Execpted output text can be put in sepate file.
 - Resue of resources
-  - common output in external files
-  - replacement of name-of-sourc-file etc
-- No dependency on a shell
+  - Common output in external files that can be reused.
+  - Replacement of name-of-sourc-file in expected output
+    means that the same expected output can be used for
+    both C and C++.
+- No dependency on a shell.
+- Test setup is handled by the test tool.
+
+  The Cram tests depends on setup (environment variables)
+  handled by the build tool (``meson``).
 
 
 Cons
 -------------------------------------------------------------------------------
 
-- Problem - replace refs (see ``asserts/c/fail-messages.case``)
+- Problem - replace refs (see ``asserts/c/fail-messages.case``).
 
-  Cram's feature for checking text is nice and could be added Exactly.
-- Challenging to organise and run via ``meson``
-- Exactly cannot check prerequesites
-  These has to be implemented via the build system (*meson*)
+  Cram's feature for checking text (mixing constants and reg-exps)
+  is nice and could be added Exactly.
+- Challenging to organise and run via ``meson``.
+- Exactly cannot check prerequesites.
 
+  These has to be implemented via the build system (``meson``).
+- Exactly is more complex - may take more time to learn.
 
 .. _Criterion: https://github.com/Snaipe/Criterion
 .. _Exactly: https://github.com/emilkarlen/exactly
