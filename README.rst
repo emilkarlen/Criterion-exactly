@@ -69,15 +69,33 @@ Executing a case via its case file ``NAME.case``::
 Evaluation
 ===============================================================================
 
-- problem - replace
-- test of more props
-  - stdout
+  
+Status
+-------------------------------------------------------------------------------
+
+Only tested on Linux (Debian).
+
+
+Pros
+-------------------------------------------------------------------------------
+
+- More detailed tests, and test of more props
   - exit code
-- ability to run each test case independently
-- challenging to organise and run via meson
-- Xly cannot check prerequesites
+  - stdout
+  - stderr
+- Ability to run each test case independently
+- Execpted output text can be put in sepate file.
+
+
+Cons
+-------------------------------------------------------------------------------
+
+- Problem - replace refs (see ``asserts/c/fail-messages.case``)
+
+  Cram's feature for checking text is nice and could be added Exactly.
+- Challenging to organise and run via ``meson``
+- Exactly cannot check prerequesites
   These has to be implemented via the build system (*meson*)
-- Cram's feature for checking text is nice and could be added Exactly.
 
 
 .. _Criterion: https://github.com/Snaipe/Criterion
