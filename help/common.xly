@@ -1,0 +1,15 @@
+[setup]
+
+including ../common.xly
+
+def text-transformer replace_executable =
+
+  replace -at ( contents matches 'usage:' )
+          '[^ ]*simple\.cc?\.bin(\.exe)?'
+	  <EXECUTABLE>
+
+[assert]
+
+exit-code == 0
+
+stdout is-empty
