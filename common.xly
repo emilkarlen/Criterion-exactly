@@ -3,6 +3,11 @@
 def path samples_dir = -rel-here ../../samples
 def path full_dir    = -rel-here ../full
 
+
+def text-transformer replace_version =
+
+     replace -at line-num == 1 ' v.*' ' VERSION'
+
 env -of act CRITERION_ALWAYS_SUCCEED = 1
 env -of act CRITERION_DISABLE_TIME_MEASUREMENTS = 1
 env -of act CRITERION_JOBS = 1

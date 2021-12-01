@@ -1,4 +1,5 @@
 [suites]
 
 asserts/cxx.suite
+core/cxx.suite
 crashes/cxx.suite
