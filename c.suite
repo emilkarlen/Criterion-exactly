@@ -6,3 +6,4 @@ crashes/c.suite
 exit/c.suite
 fail-fast/c.suite
 help/c.suite
+json/c.suite

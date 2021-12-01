@@ -6,3 +6,4 @@ crashes/cxx.suite
 exit/cxx.suite
 fail-fast/cxx.suite
 help/cxx.suite
+json/cxx.suite
