@@ -12,3 +12,4 @@ parametrized/c.suite
 pattern
 redirect/c.suite
 skip
+theories/c.suite

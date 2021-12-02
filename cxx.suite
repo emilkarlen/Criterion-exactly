@@ -10,3 +10,4 @@ json/cxx.suite
 log/cxx.suite
 parametrized/cxx.suite
 redirect/cxx.suite
+theories/cxx.suite
