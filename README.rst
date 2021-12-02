@@ -91,7 +91,9 @@ Pros
   - stdout
   - stderr
 - Ability to run each test case independently.
-- Execpted output text can be put in sepate file.
+- Test cases are named (via file names) - may help
+  understand the tests.
+- Execpted output text can be put in separate files.
 - Resue of resources
   - Common output in external files that can be reused.
   - Replacement of name-of-sourc-file in expected output
@@ -117,7 +119,20 @@ Cons
   These has to be implemented via the build system (``meson``).
 - Exactly is more complex - may take more time to learn.
 
+
+New features of Exactly that would help here
+-------------------------------------------------------------------------------
+
+- text-matcher for Cram's text matching - mixed constants, reg-exps, globs
+- Automatic inclusion of package file (package.xly) (as planned)
+
+  This would make the file structure simpler.
+- Phase for prerequesites (as planned)
+- Giving config (home, act-home) and symbol definitions via command line
+
+  This could help having test executables in variable locations (the build dir)
+
+  
 .. _Criterion: https://github.com/Snaipe/Criterion
 .. _Exactly: https://github.com/emilkarlen/exactly
 .. _Cram: https://github.com/brodie/cram
-
