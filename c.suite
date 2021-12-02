@@ -11,3 +11,4 @@ log/c.suite
 parametrized/c.suite
 pattern
 redirect/c.suite
+skip
