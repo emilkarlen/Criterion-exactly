@@ -9,3 +9,4 @@ help/cxx.suite
 json/cxx.suite
 log/cxx.suite
 parametrized/cxx.suite
+redirect/cxx.suite

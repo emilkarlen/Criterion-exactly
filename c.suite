@@ -10,3 +10,4 @@ json/c.suite
 log/c.suite
 parametrized/c.suite
 pattern
+redirect/c.suite
