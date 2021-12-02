@@ -1,0 +1,10 @@
+[act]
+
+@[samples_dir]@/simple.c.bin --filter='?(malformed' --verbose
+
+[assert]
+
+stderr equals
+<<EOF
+pattern error: Mismatching parenthesis
+EOF
