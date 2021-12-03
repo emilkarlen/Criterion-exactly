@@ -4,6 +4,4 @@
 
 [assert]
 
-stderr
-  -transformed-by ( replace_version | replace_executable )
-  equals -contents-of ../help-text.txt
+stderr is_help_text
