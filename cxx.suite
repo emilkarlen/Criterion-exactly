@@ -6,11 +6,9 @@ crashes/cxx.suite
 exit/cxx.suite
 fail-fast/cxx.suite
 help/cxx.suite
-json/cxx.suite
 log/cxx.suite
 parametrized/cxx.suite
 redirect/cxx.suite
 theories/cxx.suite
 suites/cxx.suite
-tap/cxx.suite
-xml/cxx.suite
+reporting/cxx.suite

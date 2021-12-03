@@ -6,7 +6,6 @@ crashes/c.suite
 exit/c.suite
 fail-fast/c.suite
 help/c.suite
-json/c.suite
 log/c.suite
 parametrized/c.suite
 pattern
@@ -14,5 +13,4 @@ redirect/c.suite
 skip
 theories/c.suite
 suites/c.suite
-tap/c.suite
-xml/c.suite
+reporting/c.suite
