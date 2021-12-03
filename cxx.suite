@@ -13,3 +13,4 @@ redirect/cxx.suite
 theories/cxx.suite
 suites/cxx.suite
 tap/cxx.suite
+xml/cxx.suite
