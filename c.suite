@@ -14,3 +14,4 @@ redirect/c.suite
 skip
 theories/c.suite
 suites/c.suite
+tap/c.suite

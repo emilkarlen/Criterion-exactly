@@ -12,3 +12,4 @@ parametrized/cxx.suite
 redirect/cxx.suite
 theories/cxx.suite
 suites/cxx.suite
+tap/cxx.suite

@@ -15,7 +15,7 @@ $0 ~ /^[^ ]/ {
     next
 }
 
-$0 ~ /^  \$ [a-z_-]*\.cc?\.bin/ {
+$0 ~ /^  \$ .*[a-z_-]*\.cc?\.bin/ {
     case_num += 1;
     body_line_idx = 0;
     delete body_lines;
