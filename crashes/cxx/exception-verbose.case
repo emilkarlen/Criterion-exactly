@@ -8,7 +8,7 @@ stderr
   -transformed-by replace_version
   equals
 <<EOF
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 6 tests from exception:
 [RUN ] exception::raise_any
 [----] exception::raise_any: Caught some unexpected exception during the test execution.

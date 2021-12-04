@@ -6,7 +6,7 @@ def path full_dir    = -rel-here ../full
 
 def text-transformer replace_version =
 
-     replace 'Criterion v[^)]*\)' 'Criterion VERSION'
+     replace 'Criterion v[^)]*\)' 'Criterion <VERSION>'
 
 env -of act CRITERION_ALWAYS_SUCCEED = 1
 env -of act CRITERION_DISABLE_TIME_MEASUREMENTS = 1

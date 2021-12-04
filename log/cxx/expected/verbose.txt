@@ -1,4 +1,4 @@
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 1 test from logging:
 [RUN ] logging::stream
 [----] This is an informational message. They are not displayed by default.

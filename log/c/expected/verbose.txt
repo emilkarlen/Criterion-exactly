@@ -1,4 +1,4 @@
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 2 tests from logging:
 [RUN ] logging::format
 [----] Log messages are printf-formatted strings.

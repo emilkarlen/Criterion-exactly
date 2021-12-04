@@ -1,5 +1,5 @@
 {
-  "id": "Criterion VERSION",
+  "id": "Criterion <VERSION>",
   "passed": 6,
   "failed": 3,
   "errored": 0,

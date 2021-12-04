@@ -8,7 +8,7 @@ stderr
   -transformed-by replace_version
   equals
 <<EOF
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 3 tests from exit:
 [RUN ] exit::expected_exit
 [PASS] exit::expected_exit

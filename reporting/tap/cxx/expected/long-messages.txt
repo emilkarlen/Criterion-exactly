@@ -1,6 +1,6 @@
 TAP version 13
 1..1
-# Criterion VERSION
+# Criterion <VERSION>
 #
 # Running 1 tests from sample
 not ok - sample::long_msg 

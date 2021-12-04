@@ -10,7 +10,7 @@ stderr
   -transformed-by replace_version
   equals
 <<EOF
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 2 tests from misc:
 [RUN ] misc::setup_crash
 [----] Warning! The test `misc::setup_crash` crashed during its setup or teardown.

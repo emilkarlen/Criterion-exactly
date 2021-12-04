@@ -8,7 +8,7 @@ stderr
   -transformed-by replace_version
   equals
 <<EOF
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 3 tests from simple:
 [RUN ] simple::caught
 [PASS] simple::caught

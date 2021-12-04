@@ -1,4 +1,4 @@
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 2 tests from misc:
 [RUN ] misc::failing
 [----] simple.cc:4: Assertion Failed

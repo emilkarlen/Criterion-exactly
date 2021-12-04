@@ -10,7 +10,7 @@ stderr
   -transformed-by replace_version
   equals
 <<EOF
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 1 test from disabled:
 [SKIP] disabled::test: Test is disabled
 [====] Running 1 test from suite1:

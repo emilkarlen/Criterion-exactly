@@ -78,7 +78,7 @@ function test_case_code() {
 
 function expected_str() {
     if (body_has_version())
-        body_lines[0] = "[----] Criterion VERSION"
+        body_lines[0] = "[----] Criterion <VERSION>"
     return concat(body_lines)
 }
 

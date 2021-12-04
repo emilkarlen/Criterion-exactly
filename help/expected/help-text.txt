@@ -1,4 +1,4 @@
-Tests compiled with Criterion VERSION
+Tests compiled with Criterion <VERSION>
 
 usage: <EXECUTABLE> OPTIONS
 options: 

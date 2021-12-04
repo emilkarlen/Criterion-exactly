@@ -1,4 +1,4 @@
-[----] Criterion VERSION
+[----] Criterion <VERSION>
 [====] Running 4 tests from params:
 [RUN ] params::cleanup
 [----] parameterized.c:79: Assertion Failed

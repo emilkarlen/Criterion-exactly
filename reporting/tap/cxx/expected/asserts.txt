@@ -1,6 +1,6 @@
 TAP version 13
 1..9
-# Criterion VERSION
+# Criterion <VERSION>
 #
 # Running 9 tests from asserts
 ok - asserts::wstring 
