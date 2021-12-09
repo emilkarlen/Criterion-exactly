@@ -1,0 +1,32 @@
+-*- org -*-
+
+Konf o manuellt arbete för att få allt att fungera.
+
+* paket
+python3-protobuf
+nanopb libnanopb-dev
+libgit2-1.1
+libgit2-dev
+
+* Python
+Alla steg måste köras i venv med beroenden installerade.
+Har installerat
+ - cram
+ - exactly
+* manuellt installerat
+Filer under <prj-root>/dependencies har laggts dit för hand.
+Dessa finns kopierade (från nätet) i dependencies.
+** debugbreak
+https://github.com/scottt/debugbreak.git
+** klib
+https://github.com/attractivechaos/klib.git
+* Konf o bygg
+Notera (fr Python): Alla steg måste köras i Python venv!
+** Konf av byggsystemet
+I rotkaltalogen:
+
+ > meson setup build
+** Bygg
+I byggkatalogen (build):
+
+ > meson compile
