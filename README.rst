@@ -90,10 +90,17 @@ Pros
   - exit code
   - stdout
   - stderr
-- Ability to run each test case independently.
+- Ability to run each test case and test suite independently.
 - Test cases are named (via file names) - may help
   understand the tests.
 - Execpted output text can be put in separate files.
+
+  This makes the test files shorter, and thereby easier
+  to work with.
+- Separate test cases in separate files.
+
+  This (too) makes the test files shorter, and thereby easier
+  to work with.
 - Resue of resources
   - Common output in external files that can be reused.
   - Replacement of name-of-sourc-file in expected output
@@ -102,6 +109,8 @@ Pros
 - No dependency on a shell.
 - Test setup is handled by the test tool.
 
+  See ``common.xly`` (in the root dir).
+  
   The Cram tests depends on setup (environment variables)
   handled by the build tool (``meson``).
 
@@ -113,12 +122,23 @@ Cons
 
   Cram's feature for checking text (mixing constants and reg-exps)
   is nice and could be added Exactly.
-- Challenging to organise and run via ``meson``.
 - Exactly cannot check prerequesites.
 
-  These has to be implemented via the build system (``meson``).
-- Exactly is more complex - may take more time to learn.
+  These have to be implemented via the build system (``meson``).
 
+  Meson config determines wether the test suite for the C version
+  or the suite for both C and C++ versions are executed.
+- Exactly is more complex - may take more time to learn.
+- Slower (approximately 3 times)
+- Windows support
+
+  Some of the tests of Exactly iteself breaks on Windows,
+  due to failure to cleanup/remove temporary directories after
+  the tests (resource busy).
+
+  But all Exactly tests that are part of the test suite
+  (Exactly testing itself) passes.
+  
 
 New features of Exactly that would help here
 -------------------------------------------------------------------------------
